@@ -15,9 +15,12 @@ nnn
   - `scala -version`
     - Scala code runner version 2.11.12
   - `scala hello.scala` got "error: Compile server encountered fatal condition: javax/tools/DiagnosticListener"
-    - probably an incompatibility of JDK and Scala
+    - probably an incompatibility of JDK``` and Scala
   - `sdk install java 11.0.20-tem`
-  
+  - then had to install scala-cli
+    - https://scala-cli.virtuslab.org/install
+    - worked, execute scripts: `scala-cli run ex010-hello.scala`
+
 
 - Windows (didn't work)
   - https://www.scala-lang.org/download
