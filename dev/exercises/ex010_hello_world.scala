@@ -1,4 +1,5 @@
-object Hello:
-  def main(args: Array[String]): Unit =
-    println("Ciao dal mondo Scala!")
+object General:
+  def main(args: Array[String]): Unit = {
+    println("nnn2")
+  }
 
