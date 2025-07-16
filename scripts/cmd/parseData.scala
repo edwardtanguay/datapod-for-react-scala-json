@@ -1,5 +1,8 @@
-object General:
+import qtools.QStr
+
+object ParseData:
   def main(args: Array[String]): Unit = {
-    println("TODO: this will parse data")
+    var suuid = QStr.generateSuuid()
+    println("Generated SUUID: " + suuid)
   }
 
