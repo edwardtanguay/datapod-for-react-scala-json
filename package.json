@@ -5,8 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite --port 3221 --open",
-		"cp": "cd scripts/cmd/create-page && go run .",
-		"pd": "cd scripts/cmd/parse-data && go run .",
+		"cp": "cd scripts/cmd && scala-cli run createPage.scala",
+		"pd": "cd scripts/cmd && scala-cli run parseData.scala ../qtools/Qstr.scala 2>$null",
 		"learn": "cd scripts/cmd/cli-learn && go run .",
 		"ex": "cd dev/exercises && scala-cli run ex020_variables.scala",
 		"gh": "git log --pretty=format:\"%ad | %h | %s\" --date=format:\"%Y-%m-%d %H:%M:%S\"",
