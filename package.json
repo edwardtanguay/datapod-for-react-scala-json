@@ -6,6 +6,7 @@
 	"scripts": {
 		"dev": "vite --port 3221 --open",
 		"cp": "cd scripts/cmd && scala-cli run createPage.scala",
+		"pd": "cd scripts/cmd && scala-cli run parseData.scala",
 		"learn": "cd scripts/cmd/cli-learn && go run .",
 		"ex": "cd dev/exercises && scala-cli run ex020_variables.scala",
 		"build": "tsc && vite build",
